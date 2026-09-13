@@ -1,8 +1,8 @@
 create table if not exists products (
   slug text primary key,
-  name text,
+  name text not null,
   cat text,
-  price int,
+  price int not null default 0,
   description text,
   image text,
   created_at timestamptz default now()

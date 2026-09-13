@@ -1,6 +1,10 @@
-# KYY STORE REAL FINAL
-Deploy: GitHub → Vercel. Isi Environment Variables dari `.env.example`.
-Production: buat Supabase, jalankan `SUPABASE.sql`, buat bucket `site-assets` public, isi `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY`.
-Developer: set `DEV_KEY_1` dan `DEV_KEY_2`; jangan commit key asli. Dashboard ada di `/developer`. QRIS/Banner/Backsound diupload dari sana.
-MyQuran v3 diproxy di `/api/myquran/*`; Sholat memakai endpoint resmi. Dokumentasi v3 saat ini menyatakan alQuran masih segera.
-WhatsApp tidak bisa dipaksa melampirkan file; user tetap mengirim bukti di chat.
+# KYY STORE REAL
+
+Next.js storefront for Vercel + Supabase.
+
+## Important deployment notes
+- Next.js is pinned to 14.2.35, the patched Next 14 release.
+- Supabase `products.description` is mapped to the app's `desc` property automatically.
+- Set developer keys and Supabase secrets only in Vercel Environment Variables.
+- Run `SUPABASE.sql` in Supabase SQL Editor before using persistent products/orders/settings/storage.
+- Create a public Supabase Storage bucket named `site-assets`.
