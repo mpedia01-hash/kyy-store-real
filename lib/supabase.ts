@@ -1,0 +1,1 @@
+const u=process.env.SUPABASE_URL,k=process.env.SUPABASE_SERVICE_ROLE_KEY;export const db=!!(u&&k);export async function sb(path:string,opt:RequestInit={}){if(!db)throw Error('SUPABASE_NOT_SET');return fetch(u!+'/rest/v1/'+path,{...opt,headers:{apikey:k!,Authorization:'Bearer '+k!,'Content-Type':'application/json',...(opt.headers||{})}})}export const url=()=>u!;

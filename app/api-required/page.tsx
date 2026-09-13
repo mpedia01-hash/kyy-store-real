@@ -1,0 +1,1 @@
+export default function P(){return <div className="wrap"><div className="card"><h1>🔌 API yang Dibutuhkan</h1><p>MyQuran untuk fitur Muslim. Database/storage memakai Supabase bila production. Payment QRIS memakai provider pilihan lu dan bisa ditambahkan sebagai adapter. WhatsApp memakai link wa.me.</p></div></div>}

@@ -1,0 +1,1 @@
+import{cookies}from'next/headers';export function ok(){const k=cookies().get('kyy_dev')?.value;return !!k&&[process.env.DEV_KEY_1,process.env.DEV_KEY_2].includes(k)}

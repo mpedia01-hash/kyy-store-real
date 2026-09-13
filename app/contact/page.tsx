@@ -1,0 +1,1 @@
+export default function P(){return <div className="wrap"><div className="card"><h1>Contact</h1><p>Hubungi admin melalui WhatsApp atau Telegram yang diatur Developer.</p></div></div>}

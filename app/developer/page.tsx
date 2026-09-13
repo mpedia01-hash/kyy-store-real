@@ -1,0 +1,1 @@
+import{Dev}from'../../components/dev';export default function P(){return <div className="wrap"><Dev/></div>}

@@ -1,0 +1,1 @@
+export default function P(){return <div className="wrap"><div className="card"><h1>Cara Order</h1><p>1. Pilih produk. 2. Isi data. 3. Checkout. 4. Bayar QRIS. 5. Screenshot bukti. 6. Upload/kirim bukti melalui WhatsApp admin.</p></div></div>}

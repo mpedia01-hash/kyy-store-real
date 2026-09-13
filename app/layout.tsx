@@ -1,0 +1,1 @@
+import './globals.css';import {Shell} from '../components/shell';export const metadata={title:'𝐊𝐘𝐘 𝐒𝐓𝐎𝐑𝐄 𝐑𝐄𝐀𝐋'};export default function L({children}:{children:React.ReactNode}){return <html lang="id"><body><Shell>{children}</Shell></body></html>}

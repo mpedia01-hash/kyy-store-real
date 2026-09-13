@@ -1,0 +1,1 @@
+import Link from'next/link';export function Menu(){return <aside className="card menu"><p><Link href="/quran">📖 Quran</Link></p><p><Link href="/sholat">🕌 Sholat</Link></p><p><Link href="/cara-buat">💻 Cara Buat</Link></p><p><Link href="/api-required">🔌 API</Link></p></aside>}

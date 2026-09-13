@@ -1,0 +1,1 @@
+export default function P(){return <div className="wrap"><div className="card"><h1>💻 Cara Membuat Website</h1><p>Stack: Next.js, React, API routes, database Supabase, storage, MyQuran, dan Vercel. Frontend realtime memanggil backend agar secret tidak ditaruh di browser.</p></div></div>}

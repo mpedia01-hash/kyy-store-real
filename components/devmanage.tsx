@@ -1,0 +1,1 @@
+import{DevProduct}from'./devproduct';import{DevAsset}from'./devasset';export function DevManage(){return <div className="card"><h1>Developer Dashboard</h1><h3>Produk</h3><DevProduct/><h3>QRIS / Banner / Backsound</h3><DevAsset/></div>}

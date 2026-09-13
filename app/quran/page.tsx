@@ -1,0 +1,1 @@
+import{QuranUI}from'../../components/quranui';export default function P(){return <div className="wrap"><QuranUI/></div>}

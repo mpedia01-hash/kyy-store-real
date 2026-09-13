@@ -1,0 +1,1 @@
+export const M=process.env.MYQURAN_BASE||'https://api.myquran.com/v3';export async function mq(p:string){const r=await fetch(M+p,);return r.json()}

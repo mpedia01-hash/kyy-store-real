@@ -1,0 +1,1 @@
+import{PayBox}from'../../components/paybox';export default function P({searchParams}:{searchParams:{product?:string}}){return <div className="wrap"><PayBox slug={searchParams.product||''}/></div>}

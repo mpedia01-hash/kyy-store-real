@@ -1,0 +1,1 @@
+Banner MP4/foto dan backsound dapat diunggah dari Developer Dashboard setelah Supabase Storage disiapkan.

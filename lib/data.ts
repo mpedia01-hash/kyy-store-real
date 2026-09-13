@@ -1,0 +1,1 @@
+export type P={slug:string;name:string;cat:string;price:number;desc:string;image?:string};export const demo:P[]=[{slug:'nokos',name:'NOKOS Premium',cat:'NOKOS',price:15000,desc:'Nomor virtual siap pakai.'},{slug:'sosmed',name:'Jasa Sosmed',cat:'Sosmed',price:25000,desc:'Layanan sosial media.'}];

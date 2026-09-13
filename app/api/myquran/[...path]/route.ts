@@ -1,0 +1,1 @@
+import{NextResponse}from'next/server';import{M}from'../../../../lib/myquran';export async function GET(r:Request,{params}:{params:{path:string[]}}){const u=new URL(r.url);const x=await fetch(M+'/'+params.path.join('/')+u.search);return NextResponse.json(await x.json(),{status:x.status})}
